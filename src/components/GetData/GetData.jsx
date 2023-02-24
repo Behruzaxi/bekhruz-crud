@@ -43,13 +43,13 @@ useEffect(() => {
                                     return (
                                         <>
                                 <tr style={{paddingTop: "50px"}}>
-                                    <td>{data.id}</td>
-                                    <td>{data.name}</td>
-                                    <td>{data.location}</td>
-                                    <td>{data.price}</td>
-                                    <td>{data.sale}</td>
-                                    <td>{data.img}</td>
-                                    <button onClick={() => delete_func(data.id)}>delete</button>
+                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.id}</td>
+                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.name}</td>
+                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.location}</td>
+                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.price}</td>
+                                    <td style={{fontSize: "30px", paddingTop: "40px"}}>{data.sale}</td>
+                                    <img style={{width: "140px", height: "140px"}} src={data.img} alt="" />
+                                    <button style={{marginLeft: "30px", padding: "10px, 10px ,10px, 10px", backgroundColor: "red", borderRadius: "8px", color: "white"}}  onClick={() => delete_func(data.id)}>delete</button>
                                 </tr>   
                                         </>
                                     )
