@@ -1,11 +1,9 @@
 {
   "data": [
     {
-      "name": "fa",
-      "location": "ff",
-      "price": "33333",
-      "sale": "33",
-      "img": "https://www.gazeta.uz/media/img/2021/03/x9zG3N16150205463747_b.jpg",
+      "name": "bekhruz",
+      "email": "bekhruzergashev@gmail.com",
+      "password": "11111",
       "id": 1
     }
   ]
